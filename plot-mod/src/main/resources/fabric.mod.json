@@ -1,0 +1,22 @@
+{
+  "schemaVersion": 1,
+  "id": "plotmod",
+  "version": "${version}",
+  "name": "Plot Mod: Dima & Ulyana",
+  "description": "Cюжетное прохождение: апгрейд кирок, компас удачи с рулеткой, роли Димы и Ульяны.",
+  "authors": ["Qwen"],
+  "contact": {},
+  "license": "MIT",
+  "icon": "assets/plotmod/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": ["ru.plotmod.PlotMod"],
+    "client": ["ru.plotmod.PlotModClient"]
+  },
+  "depends": {
+    "fabricloader": ">=0.14.21",
+    "minecraft": "~1.20.1",
+    "java": ">=17",
+    "fabric-api": "*"
+  }
+}
